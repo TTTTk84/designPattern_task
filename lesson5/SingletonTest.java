@@ -14,6 +14,8 @@ public class SingletonTest {
 class Renban {
   private static Renban instance = new Renban();
   private int number;
+  private int add = 1;
+  private int max = 9999;
 
   private Renban() {
     this.number = 0;
@@ -24,8 +26,12 @@ class Renban {
   }
 
   public String getNumber() {
-    this.number += 1;
-    String str = String.format("%04d", this.number);
+    if (number + add >= max) {
+      number = max;
+    } else {
+      number += add;
+    }
+    String str = String.format("%04d", number);
     return str;
   }
 }
