@@ -1,3 +1,5 @@
+package lesson5;
+
 public class SingletonTest {
   public static void main(String[] args) {
     Renban renbanA = Renban.getInstance();
