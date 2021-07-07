@@ -1,4 +1,4 @@
-package lesson11;
+package lesson11.factoryMethod;
 
 abstract class Koujyou {
   public final Seihin create() {

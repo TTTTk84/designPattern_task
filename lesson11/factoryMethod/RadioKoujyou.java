@@ -1,4 +1,4 @@
-package lesson11;
+package lesson11.factoryMethod;
 
 class RadioKoujyou extends Koujyou {
   public Seihin factoryMethod() {

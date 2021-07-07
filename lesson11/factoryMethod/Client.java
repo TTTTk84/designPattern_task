@@ -1,4 +1,4 @@
-package lesson11;
+package lesson11.factoryMethod;
 
 public class Client {
   public static void main(String[] args) {

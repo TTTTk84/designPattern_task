@@ -1,4 +1,4 @@
-package lesson11;
+package lesson11.factoryMethod;
 
 class Radio extends Seihin {
   private int radioSerialNumber;

@@ -1,4 +1,4 @@
-package lesson11;
+package lesson11.no_factoryMethod;
 
 class Date {
   public static String today() {
