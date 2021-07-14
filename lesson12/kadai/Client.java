@@ -8,6 +8,7 @@ public class Client {
     s.attach(o1);
     s.attach(o2);
 
+    // とりあえず発火させました。
     s.alert();
   }
 }
